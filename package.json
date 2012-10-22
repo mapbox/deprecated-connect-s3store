@@ -1,0 +1,16 @@
+{
+  "name": "connect-s3-store",
+  "description": "Use AWS S3 as a Connect session store",
+  "version": "0.0.0",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/ianshward/connect-s3-store.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "knox": "0.3.x"
+  }
+}
