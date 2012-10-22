@@ -11,6 +11,6 @@
     "node": "0.8.x"
   },
   "dependencies": {
-    "knox": "0.3.x"
+    "request": "2.11.x"
   }
 }
