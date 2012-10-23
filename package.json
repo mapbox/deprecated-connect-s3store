@@ -11,6 +11,6 @@
     "node": "0.8.x"
   },
   "dependencies": {
-    "knox": "0.3.x"
+    "knox": "https://github.com/ianshward/knox/tarball/configure-agent"
   }
 }
