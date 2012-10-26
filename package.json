@@ -11,6 +11,6 @@
     "node": "0.8.x"
   },
   "dependencies": {
-    "knox": "https://github.com/ianshward/knox/tarball/configure-agent"
+    "knox": "https://github.com/LearnBoost/knox/tarball/master"
   }
 }
