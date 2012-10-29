@@ -1,5 +1,5 @@
-connect-s3-store
-================
+connect-s3store
+===============
 
 Use S3 as a node.js Connect session store.
 
@@ -8,7 +8,7 @@ Use S3 as a node.js Connect session store.
 Use like any other Connect session store.
 
     var connect = require('connect');
-    var S3Store = require('connect-s3-store')(connect);
+    var S3Store = require('connect-s3store')(connect);
     var store = new S3Store({
         // Bucket to be used for sessions.
         bucket: 'myappsessions',

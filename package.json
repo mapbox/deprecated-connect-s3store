@@ -1,10 +1,10 @@
 {
-  "name": "connect-s3-store",
+  "name": "connect-s3store",
   "description": "Use AWS S3 as a Connect session store",
   "version": "0.0.0",
   "repository": {
       "type": "git",
-      "url": "git://github.com/ianshward/connect-s3-store.git"
+      "url": "git://github.com/mapbox/connect-s3store.git"
   },
   "main": "index.js",
   "engines": {
