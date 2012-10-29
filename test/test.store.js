@@ -51,7 +51,7 @@ describe('sessions', function() {
 
 describe('throttle', function () {
     var store = new S3Store({
-        setThrottle: 5000,
+        throttle: 5000,
         bucket: process.env['S3STORE_BUCKET'],
         awsKey: process.env['S3STORE_KEY'],
         awsSecret: process.env['S3STORE_SECRET']

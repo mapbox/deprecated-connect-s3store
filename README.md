@@ -12,12 +12,14 @@ Use like any other Connect session store.
     var store = new S3Store({
         // Bucket to be used for sessions.
         bucket: 'myappsessions',
-        // Prefix to apply to all session objects. Optional.
-        prefix: '/sessions/',
         // AWS key.
         awsKey: 'xxxxxxxxxxxxxxxxxxxx',
         // AWS secret.
-        awsSecret: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        awsSecret: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        // Optional. Prefix to apply to all session objects.
+        prefix: '/sessions/',
+        // Optional. Throttle trivial session writes in ms. Defaults to 60000ms.
+        throttle: 20000
     });
     var server = connect.createServer();
     server.use(connect.session({secret: 'YourSecretKey', store: store });
